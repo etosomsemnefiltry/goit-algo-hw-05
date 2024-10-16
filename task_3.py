@@ -43,9 +43,9 @@ print(f"{boyer_moore_time:.6f} - Boyer-Moore")
 print(f"{rabin_karp_time:.6f} - Rabin-Karp\n")
 
 
-kmp_time = timeit.timeit(lambda: s.kmp_search(text2, key1), number=100)
-boyer_moore_time = timeit.timeit(lambda: s.boyer_moore_search(text2, key1), number=100)
-rabin_karp_time = timeit.timeit(lambda: s.rabin_karp_search(text2, key1), number=100)
+kmp_time = timeit.timeit(lambda: s.kmp_search(text2, key2), number=100)
+boyer_moore_time = timeit.timeit(lambda: s.boyer_moore_search(text2, key2), number=100)
+rabin_karp_time = timeit.timeit(lambda: s.rabin_karp_search(text2, key2), number=100)
 
 # Поиск реальных значений Текст 2
 print('\nПоиск реальных значений Текст 2')
